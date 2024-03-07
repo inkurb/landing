@@ -6,7 +6,7 @@ export default function page() {
         Services we offer
       </div>
       <div>
-        services different
+        services
       </div>
     </div>
   )
