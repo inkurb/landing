@@ -1,0 +1,56 @@
+.container {
+  background-color: #f4f4f8;
+  padding: 3rem;
+
+  .innerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // border-radius: 50px;
+
+  }
+  .contentContainer {
+    color: #4a5568;
+    font-size: 14px;
+    margin: 1rem;
+    
+    .innerContentContainer {
+      display: flex;
+      border-radius: 10px;
+
+      h3 {
+        color: #2d3748;
+        font-size: 28px;
+      }
+      .detailsContainer{
+        margin: 2rem;
+        p{
+            font-size: 14px;
+        }
+        span{
+            display: flex;
+            background: -webkit-linear-gradient(0deg, #b20461 80%, #76bde4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+  }
+  .caseStudyContainer{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+    align-items: center;
+    gap: .3rem;
+    span{
+        display: flex;
+        background: -webkit-linear-gradient(0deg, #b20461 80%, #76bde4 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+  }
+  .containerGreen{
+    background-color: greenyellow;
+}
+}

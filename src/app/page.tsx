@@ -3,6 +3,10 @@ import ContentContainer from "./components/contentContainer/page";
 import Information from "./components/Information/page";
 import Swiper from "./components/Swiper/sliding";
 import AuthoriseCompanies from "./components/AuthoriseCompanies/page";
+import FeedBacks from "./components/FeedBack/page";
+import Recents from "./components/Recents/page";
+import WayOfBuilding from './components/wayofBuilding/page';
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -10,6 +14,9 @@ export default function Home() {
      <Swiper/>
      <Information/>
      <AuthoriseCompanies/>
+     <FeedBacks/>
+     <Recents/>
+     <WayOfBuilding/>
     </main>
   );
 }

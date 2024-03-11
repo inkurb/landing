@@ -1,0 +1,67 @@
+.container{
+    background-color: #ffff;
+    padding: 3rem;
+  
+    .innerContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      // border-radius: 50px;
+  
+    }
+    .contentContainer {
+        // color: #4a5568;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 1rem;
+        .innerContentContainer {
+          display: flex;
+          border-radius: 10px;
+          h3 {
+            color: #2d3748;
+            font-size: 28px;
+            font-weight: 600;
+          }
+          .detailsContainer{
+            margin: 2rem;
+            p{
+                font-size: 18px;
+            }
+            span{
+                display: flex;
+                background: -webkit-linear-gradient(0deg, #b20461 80%, #76bde4 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            blockquote{
+                   padding: .4rem;
+                    border-left: 3px solid transparent;
+                    border-image: -webkit-linear-gradient(0deg, #b20461 80%, #76bde4 100%) 1 100%;
+                  
+                  p{
+                    font-size: 15px;
+                    background: -webkit-linear-gradient(0deg, #b20461 80%, #76bde4 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  }
+            }
+            .profileContainer{
+                display: flex;
+                gap: .5rem;
+                .innerProfileConent{
+                    display: flex;
+                    flex-direction: column;
+                    .postInCompany{
+                        color: #718096;
+                        font-size: 13px;
+
+                    }
+                }
+            }
+          }
+        }
+      }
+
+
+}
