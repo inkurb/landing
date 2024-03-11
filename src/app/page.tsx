@@ -7,7 +7,7 @@ import FeedBacks from "./components/FeedBack/page";
 import Recents from "./components/Recents/page";
 import WayOfBuilding from './components/wayofBuilding/page';
 import OurApproach from './components/Approach/page';
-
+import TechStack from './components/TechStack/page';
 
 export default function Home() {
   return (
@@ -20,6 +20,7 @@ export default function Home() {
      <Recents/>
      <WayOfBuilding/>
      <OurApproach/>
+     <TechStack/>
     </main>
   );
 }

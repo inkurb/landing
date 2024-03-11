@@ -1,0 +1,28 @@
+.container{
+    background-color: aliceblue;
+    .innerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        padding: 2rem;
+        span p{
+            font-size: 35px;
+        } 
+        span h2{
+          font-size: 35px;
+        }
+      }
+      .headingContainer{
+        display: flex;
+        justify-content: space-around;
+        color:  #1A202C;
+        ;
+      }
+      .imgContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+      }
+}
