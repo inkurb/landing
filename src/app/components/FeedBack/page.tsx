@@ -1,15 +1,19 @@
-import styles from "./page.module.scss";
+import Styles from "./page.module.scss";
+import Image from "next/image";
+import Line from "../../../../public/Image/Deco-line.png";
 const page = () => {
   return (
-    <div className={styles.container}>
-      <div>
-        <div>
-          <div>decoline</div>
-          <div>Why cutomers love</div>
-          <div>
-            <p>working with us</p>
-          </div>
-        </div>
+    <div className={Styles.container}>
+        <div className={Styles.innerContainer}>
+        <span>
+          <Image src={Line} alt="" />
+        </span>
+        <span>
+          <p>Our Recents</p>
+        </span>
+        <span>
+          <h2>Case studies</h2>
+        </span>
       </div>
       <div>
         <p>
