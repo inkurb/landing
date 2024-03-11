@@ -1,6 +1,9 @@
 .container{
     background-color: #ffff;
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   
     .innerContainer {
       display: flex;
@@ -11,20 +14,26 @@
   
     }
     .contentContainer {
-        // color: #4a5568;
+        display: flex;
         font-size: 18px;
         font-weight: 400;
         margin: 1rem;
         .innerContentContainer {
           display: flex;
           border-radius: 10px;
+        align-items: center;
           h3 {
             color: #2d3748;
             font-size: 28px;
             font-weight: 600;
           }
+          .imgContainer{
+            width: 50%;
+            background-color: #718096;
+          }
           .detailsContainer{
             margin: 2rem;
+            width: 50%;
             p{
                 font-size: 18px;
             }

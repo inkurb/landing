@@ -56,7 +56,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className={Styles.imgContainer}>
             <Image src={Team1} alt="" />
           </div>
         </div>
