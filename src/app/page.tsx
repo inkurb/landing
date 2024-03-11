@@ -8,6 +8,10 @@ import Recents from "./components/Recents/page";
 import WayOfBuilding from './components/wayofBuilding/page';
 import OurApproach from './components/Approach/page';
 import TechStack from './components/TechStack/page';
+import DevelopmentAlkine from './components/DevelopmentAlkine/page';
+import Featured from './components/Featured/page';
+import Footer from './components/Footer/page';
+
 
 export default function Home() {
   return (
@@ -21,6 +25,9 @@ export default function Home() {
      <WayOfBuilding/>
      <OurApproach/>
      <TechStack/>
+     <DevelopmentAlkine/>
+     <Featured/>
+     <Footer/>
     </main>
   );
 }

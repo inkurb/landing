@@ -1,0 +1,56 @@
+.container {
+  margin: 2rem;
+  .hiringdeveloper {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(225deg, #f1f1f5 0%, #e4ecf7 100%);
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 10px;
+    div h3 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .orangeContainer {
+      background: linear-gradient(225deg, #ffc656 0%, #f16063 100%);
+      width: 176px;
+      height: 50px;
+      color: #ffff;
+      display: flex;
+      justify-content: center;
+    }
+    .rightContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+}
+
+.mainContainer {
+  display: flex;
+  flex-wrap: nowrap; /* Ensure the items stay in a single row */
+  gap: 2rem;
+  max-height: 500px; /* Set a maximum height for the container */
+  overflow-y: auto; /* Add a scrollbar when content overflows vertically */
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer {
+  font-size: 15px;
+  font-weight: 500;
+  color: #2d3748;
+
+  .readmore {
+    display: flex;
+    justify-content: flex-end;
+    color: #57007b;
+  }
+}
