@@ -6,6 +6,8 @@ import AuthoriseCompanies from "./components/AuthoriseCompanies/page";
 import FeedBacks from "./components/FeedBack/page";
 import Recents from "./components/Recents/page";
 import WayOfBuilding from './components/wayofBuilding/page';
+import OurApproach from './components/Approach/page';
+
 
 export default function Home() {
   return (
@@ -17,6 +19,7 @@ export default function Home() {
      <FeedBacks/>
      <Recents/>
      <WayOfBuilding/>
+     <OurApproach/>
     </main>
   );
 }
