@@ -30,6 +30,9 @@
         margin-top: 17rem;
 
     }
+    @media (max-width: 768px) {
+display: none;    }
+  
   }
 
 }

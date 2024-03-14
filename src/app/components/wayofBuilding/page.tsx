@@ -57,14 +57,14 @@ const page = () => {
             </div>
           </div>
           <div className={Styles.imgContainer}>
-            <Image src={Team1} alt="" />
+            <Image src={Team1} alt="" className={Styles.imgContainerModify}/>
           </div>
         </div>
       </div>
       <div className={Styles.contentContainer}>
         <div className={Styles.innerContentContainer}>
         <div>
-            <Image src={Team2} alt="" />
+            <Image src={Team2} alt=""  className={Styles.imgContainerModify} />
           </div>
           <div className={Styles.detailsContainer}>
             <div>
@@ -136,7 +136,7 @@ const page = () => {
             </div>
           </div>
           <div>
-            <Image src={Team3} alt="" />
+            <Image src={Team3} alt=""  className={Styles.imgContainerModify}/>
           </div>
         </div>
       </div>

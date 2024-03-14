@@ -57,7 +57,7 @@ const page = () => {
           </div>
         </div>
         <div>
-          <div className={Styles.listSocialConnection}>
+        <div className={Styles.listSocialConnection}>
             <div>
               <Image src={facebook} alt="" />
             </div>

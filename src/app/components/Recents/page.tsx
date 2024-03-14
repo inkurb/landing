@@ -23,7 +23,7 @@ const page = () => {
       <div className={Styles.contentContainer}>
         <div className={Styles.innerContentContainer} style={{backgroundColor:'#F1F2FF'}}>
           <div>
-            <Image src={Mobile3} alt="" />
+            <Image src={Mobile3} alt=""  className={Styles.imageContainer}/>
           </div>
           <div className={Styles.detailsContainer}>
             <div>
@@ -51,7 +51,7 @@ const page = () => {
       <div className={Styles.contentContainer}>
         <div className={Styles.innerContentContainer} style={{backgroundColor:' #F0FFF7'}}>
           <div>
-            <Image src={Mobile1} alt="" />
+            <Image src={Mobile1} alt=""  className={Styles.imageContainer}/>
           </div>
           <div className={Styles.detailsContainer}>
             <div>
@@ -79,7 +79,7 @@ const page = () => {
       <div className={Styles.contentContainer}>
         <div className={Styles.innerContentContainer} style={{backgroundColor:'  #FFF4F4'}}>
           <div>
-            <Image src={Mobile2} alt="" />
+            <Image src={Mobile2} alt="" className={Styles.imageContainer}/>
           </div>
           <div className={Styles.detailsContainer}>
             <div>

@@ -40,12 +40,11 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div>
-          <Image src={InformationImage} alt="img" />
+        <div>  
+          <Image src={InformationImage} alt="img"  className={Styles.informtionImgContainer}/>
         </div>
       </div>
       <div className={Styles.bottomContainer}>
-
         <div>
         <Image src={DecoLine} alt="logoArrow" />
 
