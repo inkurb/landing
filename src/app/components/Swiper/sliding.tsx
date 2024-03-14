@@ -1,16 +1,12 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import WebDevImage from '../../../../public/Image/Dashboard_perspective_matte.png';
 import MobileDevImage from '../../../../public/Image/Mobile_app_perspective_matte.png';
 import CodeDevImage from '../../../../public/Image/Code_perspective_matte.png';
-
-
 import styles from "./sliding.module.scss";
 import { Pagination } from "swiper/modules";
 import Image from 'next/image';
-
 import "swiper/css/pagination";
 import "swiper/css/bundle";
 const Sliding = () => {

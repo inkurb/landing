@@ -55,11 +55,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
   }
 }
 
-.rightContainer img {
-  max-width: 100%;
-  height: auto;
+.rightContainer  {
+  .imageResponsive{
+    max-width: auto;
+    height: 100%;
+  }
+ 
 }

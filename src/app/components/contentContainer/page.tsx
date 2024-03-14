@@ -18,7 +18,7 @@ export default function page() {
         <div><button>Lets get started</button></div>
       </div>
       <div className={styles.rightContainer}>
-        <Image src={ContentImage} alt="logo" />
+        <Image src={ContentImage} alt="logo" className={styles.imageResponsive} />
       </div>
     </div>
   );

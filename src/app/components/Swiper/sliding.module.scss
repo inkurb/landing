@@ -1,46 +1,60 @@
 .container {
-    background-color:#F9F9FF;
+    background-color: #f9f9ff;
     display: flex;
     flex-direction: column;
-
+  
     .headingContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem; /* Added margin bottom for spacing */
     }
-
+  
     .containerSlide {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 200px;
-        width: 150px;
-        margin: 2rem;
-        padding: 1rem;
-        background-color: #ffffff;
-        transition: background-color 0.3s; /* Added transition for a smooth color change */
-
-        &:hover {
-            border: 2px solid pink;
-        }
-
-        &.active {
-            border: 2px solid pink;
-        }
-
-        h1 {
-            font-weight: 600;
-            font-size: 20px;
-            color: #2d3748;
-        }
-        img{
-            border: 2px solid pink;
-            border-radius: 50%;
-            padding: .2rem;
-        }
-        p {
-            font-size: 14px;
-            color: #718096;
-        }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; /* Center the content horizontally */
+      text-align: center; /* Center the text horizontally */
+      height: auto; /* Changed height to auto for responsiveness */
+      width: 80%; /* Adjusted width for responsiveness */
+      max-width: 200px; /* Added max-width to prevent container from becoming too wide on larger screens */
+      margin: 1rem auto; /* Center the containers horizontally */
+      padding: 1rem;
+      background-color: #ffffff;
+      transition: background-color 0.3s; /* Added transition for a smooth color change */
+  
+      &:hover,
+      &.active {
+        border: 2px solid pink;
+      }
+  
+      h1 {
+        font-weight: 600;
+        font-size: 1.2rem; /* Adjusted font size for responsiveness */
+        color: #2d3748;
+        margin-bottom: 0.5rem; /* Added margin bottom for spacing */
+      }
+  
+      img {
+        border: 2px solid pink;
+        border-radius: 50%;
+        padding: 0.2rem;
+        width: 100px; /* Adjusted image width for responsiveness */
+        height: auto; /* Adjusted image height for responsiveness */
+        object-fit: cover; /* Ensure image maintains aspect ratio */
+        margin-bottom: 0.5rem; /* Added margin bottom for spacing */
+      }
+  
+      p {
+        font-size: 0.9rem; 
+        color: #718096;
+      }
+  
+      @media (max-width: 768px) {
+        width: 90%;
+        max-width: none;
+      }
     }
-}
+  }
+  
