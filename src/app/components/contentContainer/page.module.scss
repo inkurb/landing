@@ -5,6 +5,7 @@
 
   @media (max-width: 768px) {
     flex-direction: column;
+    height: auto;
   }
 
   .leftContainer {
@@ -13,6 +14,12 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 2rem;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+    }
 
     .leftContainerheading {
       font-size: 3rem;
@@ -23,18 +30,30 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+
+      @media (max-width: 768px) {
+        font-size: 2.5rem;
+      }
     }
 
     p {
       color: #4a5568;
       margin-bottom: 1rem;
       font-size: 1.2rem;
+
+      @media (max-width: 768px) {
+        font-size: 1rem;
+      }
     }
 
     .headingBold {
       font-family: "Arial", sans-serif;
       font-size: 3.5rem;
       font-weight: 900;
+
+      @media (max-width: 768px) {
+        font-size: 3rem;
+      }
     }
 
     button {
@@ -47,6 +66,10 @@
       text-decoration: none;
       font-size: 1rem;
       cursor: pointer;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
     }
   }
 
@@ -55,13 +78,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-}
 
-.rightContainer  {
-  .imageResponsive{
-    max-width: auto;
-    height: 100%;
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-top: 2rem;
+    }
+
+    .imageResponsive {
+      max-width: 100%;
+      height: auto;
+    }
   }
- 
 }

@@ -13,9 +13,13 @@
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
+    .logoImage{
+      max-width: 100%;
+      height: auto;
+    }
   }
 
-  div button {
+  button {
     background-image: linear-gradient(to right, #5c258d 0%, #4389a2 51%, #5c258d 100%);
     padding: 10px 20px;
     text-align: center;
@@ -35,7 +39,7 @@
 
   @media (max-width: 768px) {
     .container {
-       position: fixed;
+      position: fixed;
     }
 
     .innerContainer {
@@ -48,7 +52,8 @@
       display: none;
     }
 
-    div button {
+    button {
+      max-width: 100%;
       width: 100%;
     }
   }
