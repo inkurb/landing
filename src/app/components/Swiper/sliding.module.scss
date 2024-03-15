@@ -1,60 +1,59 @@
 .container {
-    background-color: #f9f9ff;
+  background-color: #f9f9ff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  .headingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .containerSlide {
     display: flex;
     flex-direction: column;
-  
-    .headingContainer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 1rem; /* Added margin bottom for spacing */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Occupy full width */
+    max-width: 300px; /* Limit maximum width */
+    margin: 1rem auto; /* Center horizontally with some vertical margin */
+    padding: 1rem;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better separation */
+
+    &:hover,
+    &.active {
+      border: 2px solid pink;
     }
-  
-    .containerSlide {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; /* Center the content horizontally */
-      text-align: center; /* Center the text horizontally */
-      height: auto; /* Changed height to auto for responsiveness */
-      width: 80%; /* Adjusted width for responsiveness */
-      max-width: 200px; /* Added max-width to prevent container from becoming too wide on larger screens */
-      margin: 1rem auto; /* Center the containers horizontally */
-      padding: 1rem;
-      background-color: #ffffff;
-      transition: background-color 0.3s; /* Added transition for a smooth color change */
-  
-      &:hover,
-      &.active {
-        border: 2px solid pink;
-      }
-  
-      h1 {
-        font-weight: 600;
-        font-size: 1.2rem; /* Adjusted font size for responsiveness */
-        color: #2d3748;
-        margin-bottom: 0.5rem; /* Added margin bottom for spacing */
-      }
-  
-      img {
-        border: 2px solid pink;
-        border-radius: 50%;
-        padding: 0.2rem;
-        width: 100px; /* Adjusted image width for responsiveness */
-        height: auto; /* Adjusted image height for responsiveness */
-        object-fit: cover; /* Ensure image maintains aspect ratio */
-        margin-bottom: 0.5rem; /* Added margin bottom for spacing */
-      }
-  
-      p {
-        font-size: 0.9rem; 
-        color: #718096;
-      }
-  
-      @media (max-width: 768px) {
-        width: 90%;
-        max-width: none;
-      }
+
+    h1 {
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: #2d3748;
+      margin-bottom: 0.5rem;
+    }
+
+    img {
+      border: 2px solid pink;
+      border-radius: 50%;
+      padding: 0.2rem;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 0.9rem; 
+      color: #718096;
+    }
+
+    @media (max-width: 768px) {
+      width: 90%;
+      max-width: none;
     }
   }
-  
+}

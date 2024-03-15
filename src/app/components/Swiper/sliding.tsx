@@ -17,7 +17,7 @@ const Sliding = () => {
             </div>
         <div>
         <Swiper
-        slidesPerView={4}
+        slidesPerView={1}
         spaceBetween={10}
         pagination={{
           clickable: true,
