@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    height: 90vh;
-    margin-top: 4rem;
+    height: 100vh;
+    // margin-top: 4rem;
     @media (max-width: 768px) {
-        margin-top: 6rem;
-        padding: 1rem;
+        // margin-top: 6rem;
+        // padding: 1rem;
 
       }
     .innerContainer{
@@ -54,7 +54,7 @@
         @media (max-width: 768px) {
             // background-color: red;
             flex-direction: column;
-            justify-content: space-around;
+            // justify-content: space-around;
     
           }
     }
