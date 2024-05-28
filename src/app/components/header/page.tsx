@@ -1,6 +1,6 @@
 import styles from './page.module.scss'
 import Image from 'next/image';
-import companyLogo from '../../../../public/Image/Ik developers.png';
+import companyLogo from '../../../../public/Image/companyName.png';
 import companytitle from '../../../../public/Image/Vector.png';
 
 export default function page() {

@@ -1,9 +1,9 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import Line from "../../../../public/Image/Deco-line.png";
-import Mobile1 from "../../../../public/Image/Case-study__image (1).png";
-import Mobile2 from "../../../../public/Image/Case-study__image (2).png";
-import Mobile3 from "../../../../public/Image/Case-study__image.png";
+import Line from "../../../../public/Image/decoline.png";
+import Mobile1 from "../../../../public/Image/mobileDevelopment.png";
+import Mobile2 from "../../../../public/Image/musicApp.png";
+import Mobile3 from "../../../../public/Image/healthApp.png";
 import SeeMore from "../../../../public/Image/seemore.png";
 
 const page = () => {

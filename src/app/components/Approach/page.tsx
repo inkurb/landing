@@ -1,6 +1,6 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import Line from "../../../../public/Image/Deco-line.png";
+import Line from "../../../../public/Image/decoline.png";
 import UXIcon1 from "../../../../public/Image/Rocket_perspective_matte.png";
 import UXIcon2 from "../../../../public/Image/Code_perspectivematte.png";
 import UXIcon3 from "../../../../public/Image/Heart_rate_perspective_matte.png";

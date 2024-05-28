@@ -1,6 +1,6 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import Line from "../../../../public/Image/Deco-line.png";
+import Line from "../../../../public/Image/decoline.png";
 const page = () => {
   return (
     <div className={Styles.container}>

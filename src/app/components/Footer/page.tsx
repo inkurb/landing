@@ -1,12 +1,12 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import companyLogo from "../../../../public/Image/Ik developers.png";
+import companyLogo from "../../../../public/Image/webDevelopment.png";
 import companytitle from "../../../../public/Image/Vector.png";
-import GoogleImage from "../../../../public/Image/google-page-speed 1 (1).png";
-import facebook from "../../../../public/Image/footer/facebook 1.png";
-import Instagram from "../../../../public/Image/footer/instagram 1.png";
-import Twitter from "../../../../public/Image/footer/twitter 1.png";
-import Linkedin from "../../../../public/Image/footer/linkedin 1.png";
+import GoogleImage from "../../../../public/Image/googleLogo.png";
+import facebook from "../../../../public/Image/footer/facebook.png";
+import Instagram from "../../../../public/Image/footer/instagram.png";
+import Twitter from "../../../../public/Image/footer/twitter.png";
+import Linkedin from "../../../../public/Image/footer/linkedin.png";
 
 const page = () => {
   return (

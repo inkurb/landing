@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.scss";
-import ContentImage from "../../../../public/Image/web-development 1.png";
+import ContentImage from "../../../../public/Image/webDevelopment.png";
 export default function page() {
   return (
     <div className={styles.container}>

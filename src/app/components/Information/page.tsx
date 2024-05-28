@@ -3,7 +3,7 @@ import Image from "next/image";
 import InformationImage from "../../../../public/Image/Abou-us-Video.png";
 import ArrowImage from "../../../../public/Image/arrow-right-line.png";
 import ArrowBottom from "../../../../public/Image/Frame 22.png";
-import DecoLine from "../../../../public/Image/Deco-line.png";
+import DecoLine from "../../../../public/Image/decoline.png";
 
 const page = () => {
   return (

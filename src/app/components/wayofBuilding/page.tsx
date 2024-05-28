@@ -1,10 +1,10 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import Line from "../../../../public/Image/Deco-line.png";
-import Team1 from "../../../../public/Image/Rectangle 17.png";
-import Profile1 from "../../../../public/Image/Ellipse 185.png";
-import Team2 from "../../../../public/Image/Rectangle 18.png";
-import Team3 from "../../../../public/Image/Rectangle 19.png";
+import Line from "../../../../public/Image/decoline.png";
+import Team1 from "../../../../public/Image/meetingpicture.png";
+import Profile1 from "../../../../public/Image/eclipse.png";
+import Team2 from "../../../../public/Image/working.png";
+import Team3 from "../../../../public/Image/confenrence.png";
 
 
 
