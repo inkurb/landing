@@ -7,8 +7,8 @@ export default function page() {
   return (
     <div className={styles.container}>
         <div className={styles.innerContainer}>
-            <div><Image src={companytitle} alt='fSfsd' className={styles.logoImage}/></div>
-            <div><Image src={companyLogo} alt='fSfsd' className={styles.logoImage}/></div>
+            <div><Image src={companytitle} alt='companyTitle' className={styles.logoImage}/></div>
+            <div><Image src={companyLogo} alt='companyLogo' className={styles.logoImage}/></div>
         </div>
         <div className={styles.informationheading}>
             <span>About Us</span>
