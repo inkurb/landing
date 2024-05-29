@@ -14,11 +14,7 @@ export default function page() {
             <span>About Us</span>
             <span>Services</span>
             <span>Case Studies</span>
-            <span>Blog</span>
-            <span>How it works</span>
-            <span>Hire</span>
-        </div>
-        <div ><button>Contact Us</button></div>
+            <button>Contact Us</button></div>
     </div>
   )
 }
