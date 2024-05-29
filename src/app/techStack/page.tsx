@@ -1,16 +1,16 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import Line from "../../../../public/Image/decoline.png";
-import NodeJs from "../../../../public/Image/services/NodeJS.png";
-import PHP from "../../../../public/Image/services/PHP.png";
-import MySQl from "../../../../public/Image/services/mysql.png";
-import JAVA from "../../../../public/Image/services/Java.png";
-import DOTNET from "../../../../public/Image/services/NETCore.png";
-import Python from "../../../../public/Image/services/Group.png";
-import Rails  from "../../../../public/Image/services/RubyOnRails.png";
-import T from "../../../../public/Image/services/Go.png";
-import MonGoDB from "../../../../public/Image/services/mongodb.png";
-const page = () => {
+import Line from "./../../../public/Image/decoline.png";
+import NodeJs from "./../../../public/Image/services/NodeJS.png";
+import PHP from "./../../../public/Image/services/PHP.png";
+import MySQl from "./../../../public/Image/services/mysql.png";
+import JAVA from "./../../../public/Image/services/Java.png";
+import DOTNET from "./../../../public/Image/services/NETCore.png";
+import Python from "./../../../public/Image/services/Group.png";
+import Rails  from "./../../../public/Image/services/RubyOnRails.png";
+import T from "./../../../public/Image/services/Go.png";
+import MonGoDB from "./../../../public/Image/services/mongodb.png";
+const TechStack = () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.innerContainer}>
@@ -45,4 +45,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default TechStack;

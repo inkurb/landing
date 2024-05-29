@@ -1,12 +1,12 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import Line from "../../../../public/Image/decoline.png";
-import Mobile1 from "../../../../public/Image/mobileDevelopment.png";
-import Mobile2 from "../../../../public/Image/musicApp.png";
-import Mobile3 from "../../../../public/Image/healthApp.png";
-import SeeMore from "../../../../public/Image/seemore.png";
+import Line from "./../../../public/Image/decoline.png";
+import Mobile1 from "./../../../public/Image/mobileDevelopment.png";
+import Mobile2 from "./../../../public/Image/musicApp.png";
+import Mobile3 from "./../../../public/Image/healthApp.png";
+import SeeMore from "./../../../public/Image/seemore.png";
 
-const page = () => {
+const Reacent= () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.innerContainer}>
@@ -115,4 +115,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Reacent;

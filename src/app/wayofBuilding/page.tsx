@@ -1,14 +1,14 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import Line from "../../../../public/Image/decoline.png";
-import Team1 from "../../../../public/Image/meetingpicture.png";
-import Profile1 from "../../../../public/Image/eclipse.png";
-import Team2 from "../../../../public/Image/working.png";
-import Team3 from "../../../../public/Image/confenrence.png";
+import Line from "./../../../public/Image/decoline.png";
+import Team1 from "./../../../public/Image/meetingpicture.png";
+import Profile1 from "./../../../public/Image/eclipse.png";
+import Team2 from "./../../../public/Image/working.png";
+import Team3 from "./../../../public/Image/confenrence.png";
 
 
 
-const page = () => {
+const WayOfBuilding = () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.innerContainer}>
@@ -144,4 +144,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default WayOfBuilding;

@@ -1,15 +1,15 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import Line from "../../../../public/Image/decoline.png";
-import Arow from "../../../../public/Image/arrow-right-line.png";
-import Featured1 from "../../../../public/Image/Featured/hacking.png";
-import Featured2 from "../../../../public/Image/Featured/computing.png";
-import Featured3 from "../../../../public/Image/Featured/learning.png";
-import Featured4 from "../../../../public/Image/Featured/development.png";
-import Upperdesigne from "../../../../public/Image/untitled folder/upper.png";
-import lowerdesigne from "../../../../public/Image/untitled folder/lower.png";
+import Line from "./../../../public/Image/decoline.png";
+import Arow from "./../../../public/Image/arrow-right-line.png";
+import Featured1 from "./../../../public/Image/Featured/hacking.png";
+import Featured2 from "./../../../public/Image/Featured/computing.png";
+import Featured3 from "./../../../public/Image/Featured/learning.png";
+import Featured4 from "./../../../public/Image/Featured/development.png";
+import Upperdesigne from "./../../../public/Image/untitled folder/upper.png";
+import lowerdesigne from "./../../../public/Image/untitled folder/lower.png";
 
-const page = () => {
+const Featured = () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.innerContainer}>
@@ -140,4 +140,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Featured;

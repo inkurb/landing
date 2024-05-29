@@ -1,7 +1,7 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import Line from "../../../../public/Image/decoline.png";
-const page = () => {
+import Line from "./../../../public/Image/decoline.png";
+const DevelopmentAlkine = () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.innerContainer}>
@@ -115,4 +115,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default DevelopmentAlkine;

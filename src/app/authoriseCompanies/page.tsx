@@ -1,14 +1,14 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import AuthoriseCom1 from "../../../../public/Image/Logo-6.png";
-import AuthoriseCom2 from "../../../../public/Image/Logo-7.png";
-import AuthoriseCom3 from "../../../../public/Image/Logo-9.png";
-import AuthoriseCom4 from "../../../../public/Image/logo3.png";
-import AuthoriseCom5 from "../../../../public/Image/logo5.png";
-import AuthoriseCom6 from "../../../../public/Image/logo8.png";
-import AuthoriseCom7 from "../../../../public/Image/logo9.png";
+import AuthoriseCom1 from "./../../../public/Image/Logo-6.png";
+import AuthoriseCom2 from "./../../../public/Image/Logo-7.png";
+import AuthoriseCom3 from "./../../../public/Image/Logo-9.png";
+import AuthoriseCom4 from "./../../../public/Image/logo3.png";
+import AuthoriseCom5 from "./../../../public/Image/logo5.png";
+import AuthoriseCom6 from "./../../../public/Image/logo8.png";
+import AuthoriseCom7 from "./../../../public/Image/logo9.png";
 
-const page = () => {
+const AuthoriseCompanies = () => {
   return (
     <div className={Styles.container}>
       <div>
@@ -36,4 +36,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default AuthoriseCompanies;

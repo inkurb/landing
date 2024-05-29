@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.scss";
-import ContentImage from "../../../../public/Image/webDevelopment.png";
-export default function page() {
+import ContentImage from "./../../../public/Image/webDevelopment.png";
+export default function ContentContainer() {
   return (
     <div className={styles.container}>
       <div className={styles.leftContainer}>

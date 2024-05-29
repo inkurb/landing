@@ -1,11 +1,11 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import InformationImage from "../../../../public/Image/Abou-us-Video.png";
-import ArrowImage from "../../../../public/Image/arrow-right-line.png";
-import ArrowBottom from "../../../../public/Image/Frame 22.png";
-import DecoLine from "../../../../public/Image/decoline.png";
+import InformationImage from "./../../../public/Image/Abou-us-Video.png";
+import ArrowImage from "./../../../public/Image/arrow-right-line.png";
+import ArrowBottom from "./../../../public/Image/Frame 22.png";
+import DecoLine from "./../../../public/Image/decoline.png";
 
-const page = () => {
+const Information= () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.innerContainer}>
@@ -61,4 +61,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Information;

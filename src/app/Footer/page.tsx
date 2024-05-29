@@ -1,14 +1,14 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import companyLogo from "../../../../public/Image/webDevelopment.png";
-import companytitle from "../../../../public/Image/Vector.png";
-import GoogleImage from "../../../../public/Image/googleLogo.png";
-import facebook from "../../../../public/Image/footer/facebook.png";
-import Instagram from "../../../../public/Image/footer/instagram.png";
-import Twitter from "../../../../public/Image/footer/twitter.png";
-import Linkedin from "../../../../public/Image/footer/linkedin.png";
+import companyLogo from "./../../../public/Image/webDevelopment.png";
+import companytitle from "./../../../public/Image/Vector.png";
+import GoogleImage from "./../../../public/Image/googleLogo.png";
+import facebook from "./../../../public/Image/footer/facebook.png";
+import Instagram from "./../../../public/Image/footer/instagram.png";
+import Twitter from "./../../../public/Image/footer/twitter.png";
+import Linkedin from "./../../../public/Image/footer/linkedin.png";
 
-const page = () => {
+const Footer = () => {
   return (
     <>
       <div className={Styles.container}>
@@ -82,4 +82,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Footer;
