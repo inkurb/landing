@@ -1,8 +1,9 @@
+'use client'
 import styles from './page.module.scss';
 import Image from 'next/image';
 import companyLogo from './../../../public/Image/companyName.png';
 import companyTitle from './../../../public/Image/Vector.png';
-import Link from 'next/link';
+import { Link as ScrollLink } from 'react-scroll';
 
 export default function Header() {
   return (
@@ -12,9 +13,15 @@ export default function Header() {
         <div><Image src={companyLogo} alt='companyLogo' className={styles.logoImage}/></div>
       </div>
       <div className={styles.informationheading}>
-        <Link href="/services">About Us</Link>
-        <Link href="">Services</Link>
-        <Link href="">Case Studies</Link>
+        <ScrollLink to="contentContainer" smooth={true} duration={500}>
+          About Us
+        </ScrollLink>
+        <ScrollLink to="swiper" smooth={true} duration={500}>
+          Services
+        </ScrollLink>
+        <ScrollLink to="authoriseCompanies" smooth={true} duration={500}>
+          Case Studies
+        </ScrollLink>
         <button>Contact Us</button>
       </div>
     </div>

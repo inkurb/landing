@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  margin: 1rem;
   .headingContainer {
     display: flex;
     justify-content: center;
@@ -16,6 +17,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 1rem;
     width: 100%; /* Occupy full width */
     max-width: 300px; /* Limit maximum width */
     margin: 1rem auto; /* Center horizontally with some vertical margin */
