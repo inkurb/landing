@@ -18,19 +18,16 @@ const Sliding = () => {
       </div>
       <div className={styles.swiperContainer}>
         <Swiper
-          slidesPerView={3} 
-          spaceBetween={25}
-          centeredSlides={true}
+          modules={[Autoplay, Pagination]}
+          pagination={{ clickable: true }}
+          slidesPerView={5}
           autoplay={{
-            delay: 2500,
+            delay: 2000,
+            pauseOnMouseEnter: true,
             disableOnInteraction: false,
           }}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Autoplay, Pagination]}
-          className="mySwiper"
+          loop
+          className="swiper-container"
         >
           <SwiperSlide className={styles.containerSlide}>
             <Image src={WebDevImage} alt="img" />
@@ -89,3 +86,4 @@ const Sliding = () => {
 };
 
 export default Sliding;
+
