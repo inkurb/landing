@@ -1,6 +1,6 @@
 import Styles from "./page.module.scss";
 import Image from "next/image";
-import companyLogo from "./../../../public/Image/webDevelopment.png";
+import InkrubLogo from "./../../../public/Image/inkrubLogo.svg";
 import companytitle from "./../../../public/Image/Vector.png";
 import GoogleImage from "./../../../public/Image/googleLogo.png";
 import facebook from "./../../../public/Image/footer/facebook.png";
@@ -15,16 +15,16 @@ const Footer = () => {
         <div className={Styles.contentContainer}>
           <div className={Styles.innerContainer}>
             <div>
-              <Image src={companytitle} alt="fSfsd" />
-              <Image src={companyLogo} alt="fSfsd" />
+              <Image src={InkrubLogo} alt="fSfsd" className={Styles.logocompany} />
+              {/* <Image src={companyLogo} alt="fSfsd" /> */}
             </div>
           </div>
-          <div>
+          {/* <div>
             <p>Lorem Ipsum is simply dummy text of </p>
             <p>the printing and typesetting industry.</p>
-          </div>
+          </div> */}
           <div>
-            <Image src={GoogleImage} alt="" />
+            {/* <Image src={GoogleImage} alt="" /> */}
           </div>
         </div>
         <div className={Styles.contentContainer}>

@@ -1,7 +1,7 @@
 'use client'
 import styles from './page.module.scss';
 import Image from 'next/image';
-import companyLogo from './../../../public/Image/companyName.png';
+import InkrubLogo from './../../../public/Image/inkrubLogo.svg';
 import companyTitle from './../../../public/Image/Vector.png';
 import { Link as ScrollLink } from 'react-scroll';
 
@@ -9,8 +9,7 @@ export default function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.innerContainer}>
-        <div><Image src={companyTitle} alt='companyTitle' className={styles.logoImage}/></div>
-        <div><Image src={companyLogo} alt='companyLogo' className={styles.logoImage}/></div>
+        <div><Image src={InkrubLogo} alt='companyLogo' className={styles.logoImage}/></div>
       </div>
       <div className={styles.informationheading}>
         <ScrollLink to="contentContainer" smooth={true} duration={500}>

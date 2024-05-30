@@ -15,7 +15,7 @@ const Sliding = () => {
         <div className={styles.headingContainer}>
             <h2>Services  we offer</h2>
             </div>
-        <div>
+        <div className={styles.swiperContainer}>
         <Swiper
         slidesPerView={1}
         spaceBetween={10}

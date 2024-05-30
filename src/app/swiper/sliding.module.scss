@@ -2,33 +2,37 @@
   background-color: #f9f9ff;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  margin: 1rem;
+  justify-content: center;
+  height: 100vh;
   .headingContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
   }
+  .swiperContainer{
+    padding:2rem;
 
+  }
   .containerSlide {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 1rem;
-    width: 100%; /* Occupy full width */
-    max-width: 300px; /* Limit maximum width */
-    margin: 1rem auto; /* Center horizontally with some vertical margin */
-    padding: 1rem;
+    width: 100%; 
+    max-width: 300px; 
+    height: 300px;
+    margin: 1.5rem 1rem 6rem;
+    // padding: 2rem;
     background-color: #ffffff;
-    transition: background-color 0.3s;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better separation */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+
+    transition: box-shadow 0.3s ease; 
 
     &:hover,
     &.active {
       border: 2px solid pink;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); 
     }
 
     h1 {
